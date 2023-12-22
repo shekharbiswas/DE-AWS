@@ -13,5 +13,6 @@ Concepts:
 
 # Project 2:
 
-Build a data warehouse solution on the AWS cloud. 
+Build a data warehouse solution on the AWS cloud.
+
 Extract data from AWS S3, transform it using SQL and Python, and load it into an AWS Redshift data warehouse.
