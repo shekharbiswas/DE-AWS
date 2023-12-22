@@ -1,6 +1,7 @@
 This REPO contains the Projects from Udacity DE AWS Nanodegree:
 
-1. **Project_1B_ Project_Template.ipynb** - This demonstrates how we can use Apache Cassandra to create a NoSQL tables specific to queries.
+# Project 1:
+**Project_1B_ Project_Template.ipynb** - This demonstrates how we can use Apache Cassandra to create a NoSQL tables specific to queries.
 
 Concepts:
 
@@ -9,3 +10,8 @@ Concepts:
 - Ensure Data Model should have a UNIQUE Primary Key and no usage of ALLOW FILTERING.
 - Define PARTITION KEY alone or with the addition of CLUSTERING COLUMNS in each Data Model.
 
+
+# Project 2:
+
+Build a data warehouse solution on the AWS cloud. 
+Extract data from AWS S3, transform it using SQL and Python, and load it into an AWS Redshift data warehouse.
