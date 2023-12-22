@@ -1,4 +1,5 @@
-Project Description
+# Project Description
+
 Sparkify is a music streaming startup.
 
 Sparkify has grown its user base and song database and wants to move its processes, data, and data analytics applications onto the cloud.
