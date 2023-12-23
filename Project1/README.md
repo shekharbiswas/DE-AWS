@@ -6,3 +6,5 @@ Concepts:
 - Create 3 NoSQL tables specific to 3 different queries
 - Ensure Data Model should have a UNIQUE Primary Key and no usage of ALLOW FILTERING.
 - Define PARTITION KEY alone or with the addition of CLUSTERING COLUMNS in each Data Model.
+- Choosing Partition Key and Clustering Column
+- Composite Partition Key
