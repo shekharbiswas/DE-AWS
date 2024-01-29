@@ -44,3 +44,40 @@ song_id, title, artist_id, year, duration
 artist_id, name, location, latitude, longitude
 - time - timestamps of records in songplays broken down into specific units
 start_time, hour, day, week, month, year, weekday
+
+
+
+## Project Steps
+
+Below are steps you can follow to complete each component of this project.
+
+### Create Table Schemas
+- Design schemas for your fact and dimension tables
+- Write a SQL CREATE statement for each of these tables in sql_queries.py
+- Complete the logic in create_tables.py to connect to the database and create these tables
+- Write SQL DROP statements to drop tables in the beginning of create_tables.py if the tables already exist. This way, you can run create_tables.py whenever you want to reset your database and
+test your ETL pipeline.
+-Launch a redshift cluster and create an IAM role that has read access to S3.
+- Add redshift database and IAM role info to dwh.cfg.
+- Test by running create_tables.py and checking the table schemas in your redshift database. You can use Query Editor in the AWS Redshift console for this.
+
+### Build ETL Pipeline
+- Implement the logic in etl.py to load data from S3 to staging tables on Redshift.
+- Implement the logic in etl.py to load data from staging tables to analytics tables on Redshift.
+- Test by running etl.py after running create_tables.py and running the analytic queries on your Redshift database to compare your results with the expected results.
+- Delete your redshift cluster when finished.
+  
+### Document Process
+Do the following steps in your README.md file. Here's a guide on Markdown Syntax.
+
+- Discuss the purpose of this database in context of the startup, Sparkify, and their analytical goals.
+- State and justify your database schema design and ETL pipeline.
+
+#### [Optional] 
+Provide example queries and results for song play analysis. We do not provide you any of these. You, as part of the Data Engineering team were tasked to build this ETL. Thorough study has gone into the star schema, tables, and columns required. The ETL will be effective and provide the data and in the format required. However, as an exercise, it seems almost silly to NOT show SOME examples of potential queries that could be ran by the users. PLEASE use your imagination here. For example, what is the most played song? When is the highest usage time of day by hour for songs? It would not take much to imagine what types of questions that corporate users of the system would find interesting. Including those queries and the answers makes your project far more compelling when using it as an example of your work to people / companies that would be interested. You could simply have a section of sql_queries.py that is executed after the load is done that prints a question and then the answer.
+
+#### Example Output From An ETL Run
+
+
+![image](https://github.com/shekharbiswas/DE-AWS/assets/32758439/20fbaf67-25b3-4507-a829-38228671cd17)
+
