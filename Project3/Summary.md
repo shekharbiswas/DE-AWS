@@ -41,3 +41,6 @@ Use AWS Elastic Compute (EC2) machines and install and configure Spark and HDFS 
 ### Glue -
 Glue is a serverless Spark environment with added libraries like the Glue Context and Glue Dynamic Frames. It also interfaces with other AWS data services like Data Catalog and AWS Athena.
 
+
+![image](https://github.com/shekharbiswas/DE-AWS/assets/32758439/b1fa3b90-cc9a-4f63-85a8-6cab4a3afc6f)
+
