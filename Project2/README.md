@@ -54,13 +54,11 @@ The 2 scrips will help to populate the data to the AWS redshift cluster DWH syst
 - create table schema
 ```
 python create_tables.py
-
 ```
 
 - Build ETL pipeline
 ```
 python etl.py
-
 ```
 
 
