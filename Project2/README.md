@@ -36,7 +36,7 @@ The 2 scrips will help to populate the data to the AWS redshift cluster DWH syst
 
 ## Steps
 
-- Create Table Schemas
+### Create Table Schemas
 - Design schemas for your fact and dimension tables
 - Write a SQL CREATE statement for each of these tables in sql_queries.py
 - Complete the logic in create_tables.py to connect to the database and create these tables
@@ -44,7 +44,7 @@ The 2 scrips will help to populate the data to the AWS redshift cluster DWH syst
 - Test by running create_tables.py and checking the table schemas in your redshift database.
 
   
-- Build ETL Pipeline
+### Build ETL Pipeline
 - Implement the logic in etl.py to load data from S3 to staging tables on Redshift.
 - Implement the logic in etl.py to load data from staging tables to analytics tables on Redshift.
 
