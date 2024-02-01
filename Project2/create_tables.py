@@ -4,18 +4,38 @@ from sql_queries import create_table_queries, drop_table_queries
 
 
 def drop_tables(cur, conn):
+    """
+    Drop tables from the queries in drop_table_queries list from sql_queries script
+    """
     for query in drop_table_queries:
         cur.execute(query)
         conn.commit()
 
 
 def create_tables(cur, conn):
+    """
+    Create tables from the queries in create_table_queries list from sql_queries script
+    """
+    
     for query in create_table_queries:
         cur.execute(query)
         conn.commit()
 
 
 def main():
+
+    """
+    Main Function 
+    
+    - Parses the configuration file `dwh.cfg`.
+    - Connects to the Redshift cluster.
+    - Drops the tables 
+    - Creates the tables
+    - Closes the connection to the Redshift cluster.
+    
+    """
+
+    
     config = configparser.ConfigParser()
     config.read('dwh.cfg')
 
