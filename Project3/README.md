@@ -1,4 +1,4 @@
-# Project 3
+# Project
 
 Build a data lakehouse solution for sensor data that trains a machine learning model.
 
