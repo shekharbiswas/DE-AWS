@@ -16,3 +16,15 @@ Buckets are storage locations within AWS, that have a hierarchical directory-lik
 
 
 ![image](https://github.com/shekharbiswas/DE-AWS/assets/32758439/f61db511-fe17-467a-bc1f-759f0fecd5de)
+
+
+## Data Lakes in the AWS Cloud
+Data Lakes are not a specific technology. They can be implemented using many types of file storage systems. In AWS, the most common way to store files is in S3, so we can implement data lakes using S3 storage.
+
+## S3 Data Lakes and Spark on AWS
+Like the Hadoop Distributed File System, AWS created S3, the Simple Storage Service. S3 buckets are an abstraction of storage similar to HDFS. They make it possible to store an almost unlimited amount of data and files.
+
+S3 doesn't require the maintenance required by most file storage systems. It is relatively easy to use. The very top level of S3 is called an S3 Bucket. Within a bucket, you can keep many directories and files.
+
+Because S3 has almost unlimited storage capacity and is very inexpensive, it is the ideal location to store data for your data lake. Compared with the cost of other more sophisticated data locations such as RDS, and EC2, S3 is much cheaper. There is no compute cost associated with S3 by default. So if you just need a place to store large amounts of files, this is a great place for them.
+
