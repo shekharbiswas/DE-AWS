@@ -52,3 +52,9 @@ Buckets are storage locations within AWS, that have a hierarchical directory-lik
 
 ![image](https://github.com/shekharbiswas/DE-AWS/assets/32758439/436e32a5-1b06-4fbe-95bd-10f2f1746057)
 
+
+
+
+![image](https://github.com/shekharbiswas/DE-AWS/assets/32758439/cd5a869d-9ca9-4d86-b33d-83195068bc4a)
+
+
