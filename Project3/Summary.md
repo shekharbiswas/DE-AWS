@@ -45,3 +45,6 @@ Buckets are storage locations within AWS, that have a hierarchical directory-lik
 
 
 ![image](https://github.com/shekharbiswas/DE-AWS/assets/32758439/f61db511-fe17-467a-bc1f-759f0fecd5de)
+
+
+[Spark Repo](https://github.com/udacity/nd027-Data-Engineering-Data-Lakes-AWS-Exercises)
