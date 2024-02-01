@@ -16,3 +16,8 @@ Concepts:
 Build a data warehouse solution on the AWS cloud.
 
 Extract data from AWS S3, transform it using SQL and Python, and load it into an AWS Redshift data warehouse.
+
+# Project 3:
+
+As a data engineer for the STEDI team, build a data lakehouse solution for sensor data that trains a machine learning model.
+Extract the data produced by the STEDI Step Trainer sensors and the mobile app, and curate them into a data lakehouse solution on AWS so that Data Scientists can train the learning model.
