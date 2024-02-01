@@ -13,3 +13,6 @@ By default, Glue Jobs can't reach any networks outside of your Virtual Private C
 
 - S3 Buckets
 Buckets are storage locations within AWS, that have a hierarchical directory-like structure. Once you create an S3 bucket, you can create as many sub-directories, and files as you want. The bucket is the "parent" of all of these directories and files.
+
+
+![image](https://github.com/shekharbiswas/DE-AWS/assets/32758439/f61db511-fe17-467a-bc1f-759f0fecd5de)
