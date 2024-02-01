@@ -16,8 +16,8 @@ Generate insights relevant to the business.
 
 There are two datasets stored in S3. Here are the S3 links for each:
 
-song data : s3://udacity-dend/song_data
-log data: s3://udacity-dend/log_data
+- song data : s3://udacity-dend/song_data
+- log data: s3://udacity-dend/log_data
 
 The song dataset is a subset of song data from the [Million Song Dataset](http://millionsongdataset.com/). 
 Each file is in JSON format and contains metadata about a song and the artist of that song. 
