@@ -32,7 +32,12 @@ Because S3 has almost unlimited storage capacity and is very inexpensive, it is 
 ## Using Spark on AWS
 When you want to rent a cluster of machines on AWS to run Spark, you have several choices:
 
-### EMR - EMR is an AWS managed Spark service a scalable set of EC2 machines already configured to run Spark. You don't manage the systems, only configure the necessary cluster resources.
-### EC2 - Use AWS Elastic Compute (EC2) machines and install and configure Spark and HDFS yourself.
-### Glue - Glue is a serverless Spark environment with added libraries like the Glue Context and Glue Dynamic Frames. It also interfaces with other AWS data services like Data Catalog and AWS Athena.
+### EMR - 
+EMR is an AWS managed Spark service a scalable set of EC2 machines already configured to run Spark. You don't manage the systems, only configure the necessary cluster resources.
+
+### EC2 - 
+Use AWS Elastic Compute (EC2) machines and install and configure Spark and HDFS yourself.
+
+### Glue -
+Glue is a serverless Spark environment with added libraries like the Glue Context and Glue Dynamic Frames. It also interfaces with other AWS data services like Data Catalog and AWS Athena.
 
