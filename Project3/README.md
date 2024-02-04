@@ -81,9 +81,18 @@ In a data lake architecture, the use of landing, trusted, and curated zones serv
 4. trainer landing to trusted.py: This script transfers step trainer data from the 'landing' to 'curated' zones. It filters for curated customers with Step Trainer readings.
 5. machine_learning_curated.py: This script combines Step Trainer and Accelerometer data from the 'curated' zone into a single table to train a machine learning model.
 
-Refer to the relationship diagram below to understand the desired state.
+## Summary
 
-![image](https://github.com/shekharbiswas/DE-AWS/assets/32758439/e12d16e9-ac59-4384-838e-0b57633d1079)
+Data lakehouse solution is designed to give STEDI a robust and flexible data infrastructure that allows us to store, clean, and transform vast amounts of data.
+
+- Amazon S3 for storage, enables us to store large amounts of diverse data cost-effectively. The storage can be scaled as per needs.
+
+- AWS Glue, a fully managed extract, transform, and load (ETL) service, is a user-friendly tool for preparing data for high-quality analytics and machine learning.
+
+- Maintain a single source of truth with versioning in S3 will help structure and identify correct data.
+
+Overall, a data lakehouse solution gives easy adaptation to customer needs and changes in business.
+
 
 
 
