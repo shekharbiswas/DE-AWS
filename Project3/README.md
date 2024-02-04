@@ -58,10 +58,19 @@ Contains the following fields:
 
 - To simulate the data coming from the various sources, create S3 directories for customer_landing, step_trainer_landing, and accelerometer_landing zones, and copy the data there as a starting point.
 
-- Create two Glue tables for the two landing zones.
-  Share your customer_landing.sql and your accelerometer_landing.sql script in git.
+- Create two Glue tables for the two landing zones. customer_landing.sql and accelerometer_landing.sql script (DDL) shows the schema of these 2 tables.
 
-- Query those tables using Athena, and take a screenshot of each one showing the resulting data. Name the screenshots customer_landing(.png,.jpeg, etc.) and accelerometer_landing(.png,.jpeg, etc.).
+- Query those tables using Athena, and screenshot of each one showing the resulting data have been saved in Screenshots folder.
+
+## Data Zones
+
+In a data lake architecture, the use of landing, trusted, and curated zones serves specific purposes that can significantly enhance the quality, reliability, and usability.
+
+- **Landing Zone:** The landing zone is often the first point of storage for raw data as it enters the data lake. It serves as a staging area where data from various sources is collected, often in its original format. This zone provides a place to accumulate data before processing occurs ( generally).
+
+- **Trusted Zone:** After data has been landed, it may then be processed and moved to the trusted zone. In this zone, data is cleansed, validated, and often transformed into a structured format. This can include operations like deduplication, handling missing or incorrect data, and ensuring our customers have approved their data to be used for research purposes.
+
+- **Curated Zone:** The curated zone is where data is further transformed, often to meet the specific needs of a particular analysis, application, or group of users. This may involve operations like aggregating data, creating derived metrics, or combining multiple datasets. The curated zone should provide data that's ready-to-use for OLAP team.
 
 The Data Science team has done some preliminary data analysis and determined that the Accelerometer Records each match one of the Customer Records. They would like you to create 2 AWS Glue Jobs that do the following:
 
